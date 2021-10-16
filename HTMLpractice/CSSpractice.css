@@ -1,15 +1,35 @@
 ﻿
+.main
+{
+    height:auto;
+    width:50em;
+}
+
 h1.Name{
     font-weight: bolder;
+    text-shadow: 5px 5px 2px lightblue;
 }
 
 h2{
     font-style: italic;
-    color:red;
+    color:darkslateblue;
     text-align: justify;
 }
-
+hr{
+    width:auto;
+}
+body
+{
+    background: linear-gradient(skyblue, white, skyblue);
+    margin-left:6.25em;
+}
+img{
+    margin:20px;
+    float: none;
+}
 table.skills{
     border-width: thick;
-    border:medium;
+    border-style:ridge;
+    border-color:darkslateblue;
+    empty-cells:hide;
 }

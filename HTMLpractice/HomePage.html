@@ -4,17 +4,23 @@
     <link rel="stylesheet" href="CSSpractice.css" />
     <title>Aaron's CV'</title>
 </head>
-<body>
-    <article>
-        <h1 class="Name">AARON GRINCEWICZ</h1>
-        <p><strong>Software Engineer</strong><br /></p>
-        <img src="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png" height=10% width=10% alt="profile image" />
-        <hr>
-        <h2>Summary</h2>
-        <p>
-            Detail-oriented, self-taught Software Engineer. <br /> Over one
-            year of experience with Unity engine and C#.
-        </p>
+<div class="main">
+    <body>
+        <!--Intro Section-->
+        <div class="Intro">
+            <img src="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png" height=10% width=10% alt="profile image" />
+            <h1 class="Name">AARON GRINCEWICZ</h1>
+            <p><strong>Software Engineer</strong><br /></p>
+            <hr>
+        </div>
+        <!--Summary Section-->
+        <div class="Summary">
+            <h2>Summary</h2>
+            <p>
+                Detail-oriented, self-taught Software Engineer. <br /> Over one
+                year of experience with Unity engine and C#.
+            </p>
+        </div>
         <h2>Experience</h2>
         <ul>
             <li>
@@ -23,41 +29,46 @@
             </li>
         </ul>
         <hr>
-        <h2>Skills</h2>
-        <table class= "skills">
-            <tr>
-                <th>Technologies</th>
-                <td>Unity</td>
-                <td>C#</td>
-                <td>C++</td>
-                <td>python</td>
-                <td>HTML</td>
-            </tr>
-            <tr>
-                <th>Soft Skills</th>
-                <td colspan="2">Quick learner</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+        <!--Skills Section-->
+        <div class="Skills">
+            <h2>Skills</h2>
+            <table border="1">
+                <tr>
+                    <th>Technologies</th>
+                    <td>Unity</td>
+                    <td>C#</td>
+                    <td>C++</td>
+                    <td>python</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <th>Soft Skills</th>
+                    <td colspan="2">Quick learner</td>
+                </tr>
 
-        </table>
-        <hr>
-        <h2>Contacts</h2>
-        <p>
-            <a href="https://www.sololearn.com/profile/22702799" target="_blank">SoloLearn Profile</a>
-            <br />
-            <a href="https://www.linkedin.com/in/aarongrincewicz" target="_blank">LinkedIn Profile</a>
-        </p>
-        <hr>
-    </article>
-    
-    <h2>Write me a message</h2>
-    <form>
-        <input placeholder="Name" required /><br />
-        <input placeholder="Email" required /><br />
-        <textarea placeholder="Message" required></textarea><br>
-        <input type="submit" value="SEND" />
-    </form>
-</body>
+            </table>
+            <hr>
+        </div>
+        <!--Contacts Section-->
+        <div class="Contacts">
+            <h2>Contacts</h2>
+            <p><a href="mailto: ASGrincewicz@icloud.com" target="_blank">Email: ASGrincewicz@iCloud.com</a></p>
+            <p>
+                <a href="https://www.sololearn.com/profile/22702799" target="_blank">SoloLearn Profile</a>
+                <br />
+                <a href="https://www.linkedin.com/in/aarongrincewicz" target="_blank">LinkedIn Profile</a>
+            </p>
+            <hr>
+        </div>
+
+        <h2>Write me a message</h2>
+        <form>
+            <input placeholder="Name" required /><br />
+            <input placeholder="Email" required /><br />
+            <textarea placeholder="Message" required></textarea><br>
+            <input type="submit" value="SEND" />
+        </form>
+    </body>
+</div>
 </html>
